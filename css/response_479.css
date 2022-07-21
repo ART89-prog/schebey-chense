@@ -1,0 +1,150 @@
+@media (max-width: 479px) {
+
+    :root {
+        --font_size: 16px;
+        --font_size_title: 32px;
+    }
+    .cont {
+        padding: 0 15px;
+    }
+    .title {
+        line-height: 35px;
+    }
+    .block {
+        padding: 20px 0;
+    }
+    .advantages_items {
+        display: none;
+    }
+    .advantages_slider {
+        display: block;
+    }
+    .slider_item-img {
+        position: relative;
+    }
+    .slider_item-img img {
+        width: 100%;
+    }
+    .slider_item-img-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding: 66px 31px;
+    }
+    .slider_item-title {
+        margin-top: 25px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+    }
+    .slider_item-text {
+        margin-top: 11px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .advantages_slider .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin-top: 30px;
+    }
+    .advantages_slider .slick-dots button {
+        font-size: 0px;
+    }
+    .advantages_slider .slick-dots li {
+        background: #C9C9C9;
+        border-radius: 90px;
+        width: 9px;
+        height: 9px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .advantages_slider .slick-dots .slick-active {
+        background: #56994C;
+    }
+    .header_logo img {
+        width: 40%;
+    }
+    .callback_btn {
+        height: 45px;
+        line-height: 45px;
+    }
+    .header-info_title {
+        font-size: 29px;
+    }
+    .header-top {
+        margin-bottom: 55px;
+    }
+    .header-contact .phone a {
+        margin-right: 15px;
+        margin-bottom: 0px;
+        font-size: 17px;
+    }
+    .header-info_text {
+        font-size: 17px;
+    }
+    .header-contact .callback_btn {
+        width: 175px;
+    }
+    .header-info .callback_btn {
+        height: 50px;
+    }
+    .title::before {
+        bottom: -12px;
+    }
+    .services_items {
+        margin-left: 0;
+        margin-bottom: -20px;
+    }
+    .services_items > * {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 27px;
+    }
+    .request form .field input {
+        height: 50px;
+    }
+    .request form .callback_btn {
+        height: 50px;
+        margin-top: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .request form .callback_btn span {
+        margin-right: 20px;
+    }
+    .footer_logo img {
+        width: 40%;
+    }
+    .footer-contact .phone a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .footer-contact .email a {
+        line-height: 40px;
+    }
+    .modal {
+        padding: 35px;
+        background: #FFFFFF;
+        box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+    }
+    .modal_title {
+        font-size: 22px;
+        line-height: 127.8%;
+        margin-top: 20px;
+    }
+    .modal_text {
+        font-size: 18px;
+        line-height: 127.8%;
+        margin-top: 10px;
+    }
+
+
+ 
+
+}

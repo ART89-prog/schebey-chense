@@ -1,0 +1,39 @@
+@media print, (max-width: 1187px) {
+  
+    :root {
+        --font_size_title: 45px;
+    }
+    .block {
+        padding: 70px 0;
+    }
+    html.custom_scroll ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+    .header-info_title {
+        font-size: 50px;
+    }
+    .header-info_text {
+        font-size: 22px;
+    }
+    .services_item-text br {
+        display: none;
+    }
+    .steps_item {
+        padding: 20px;
+    }
+    .advantages_item-img {
+        display: none;
+    }
+    .advantages_item-box {
+        max-width: 90%;
+    }
+    .advantages_item-box {
+        margin-bottom: 40px;
+    }
+
+  
+
+
+
+}
