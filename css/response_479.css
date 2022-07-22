@@ -96,6 +96,7 @@
     }
     .header-info .callback_btn {
         height: 50px;
+        width: 100%;
     }
     .title::before {
         bottom: -12px;
