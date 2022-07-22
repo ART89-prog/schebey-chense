@@ -7,9 +7,6 @@
     .header-top {
         flex-wrap: wrap;
     }
-    .header_language {
-        margin: 20px auto 0;
-    }
     .cont {
         padding: 0 15px;
     }
@@ -40,10 +37,10 @@
         padding: 66px 31px;
     }
     .slider_item-title {
-        margin-top: 25px;
+        margin-top: 20px;
         font-weight: 700;
-        font-size: 24px;
-        line-height: 31px;
+        font-size: 20px;
+        line-height: 28px;
         text-align: center;
     }
     .slider_item-text {
@@ -91,12 +88,37 @@
     .header-info_text {
         font-size: 17px;
     }
-    .header-contact .callback_btn {
+    .header_logo img {
         width: 175px;
+    }
+    .header_language a {
+        font-size: 12px;
+        width: 40px;
+        height: 40px;
+    }
+    .header-contact .phone img, 
+    .header-contact .email img {
+        margin-right: 6px;
+        width: 33px;
+        height: 33px;
+    }
+    .contacts_item-icon img {
+        width: 33px;
+        height: 33px;
+    }
+    .header-contact .phone, .header-contact .email {
+        font-size: 12px;
+        margin-right: 8px;
+    }
+    .header-contact .phone {
+        margin-right: 0;
     }
     .header-info .callback_btn {
         height: 50px;
         width: 100%;
+    }
+    .contacts_item-text {
+        font-size: 16px;
     }
     .title::before {
         bottom: -12px;
@@ -117,7 +139,6 @@
         height: 50px;
         margin-top: 0;
         width: 100%;
-        justify-content: center;
     }
     .request form .callback_btn span {
         margin-right: 20px;
@@ -133,18 +154,17 @@
         line-height: 40px;
     }
 
-    footer .header-contact a span {
-        display: none;
-    }
     footer .header-contact .phone img, 
     footer .header-contact .email img {
-        margin-right: 0px;
-    }
-    footer .header-contact .email {
-        margin-bottom: 0px;
+        margin-right: 6px;
     }
     footer .header-contact {
         flex-direction: row;
+    }
+    footer .header-contact .phone, 
+    footer .header-contact .email {
+        font-size: 12px;
+        margin-right: 8px;
     }
 
     .slider_item-img-logo {

@@ -125,6 +125,7 @@ input[type=number]
     --font_size: 17px;
     --font_size_title: 42px;
     --font_family: 'Montserrat';
+    --color: #2B83FF;
 }
 
 
@@ -417,7 +418,7 @@ header {
     background: rgba(255, 255, 255, 0.27);
 }
 .header_language a.active {
-    background: #2B83FF;
+    background: var(--color);
 }
 
 .header-info {
@@ -441,7 +442,7 @@ header {
     width: 100%;
 }
 .header-info .callback_btn {
-    background: #2B83FF;
+    background: var(--color);
     text-decoration: none;
     width: 309px;
     height: 76px;
@@ -484,7 +485,7 @@ header {
     left: 50%;
     transform: translateX(-50%);
     bottom: -19px;
-    background: #2B83FF;
+    background: var(--color);
 }
 .services_items {
     display: flex;
@@ -789,7 +790,7 @@ header {
     font-weight: 700;
     font-size: 18px;
     line-height: 76px;
-    background: #2B83FF;
+    background: var(--color);
     border-radius: 900px;
     color: #fff;
     margin: 30px auto 0;
@@ -868,7 +869,15 @@ footer .header-top {
     text-decoration-line: underline;
     color: #FFFFFF; 
 }
-
+footer .header-top {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+footer .header-contact {
+    margin-top: 0px;
+    margin-left: auto;
+}
 
 
 
