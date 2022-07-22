@@ -8,19 +8,23 @@
         padding: 30px 0;
     }
  
-    .header-top {
-        flex-direction: column;
+    .header-contact a span {
+        display: none;
     }
-    .header_logo {
-        margin-bottom: 30px;
+    .header-contact .phone img, 
+    .header-contact .email img {
+        margin-right: 0px;
+    }
+    .header_logo img {
+        width: 200px;
+    }
+    .header-top {
+        margin-bottom: 50px;
     }
     .header-contact {
         flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
     }
-    .header-contact .phone a {
-        margin-right: 30px;
+    .header-contact .email {
         margin-bottom: 0px;
     }
     .header-info_title {

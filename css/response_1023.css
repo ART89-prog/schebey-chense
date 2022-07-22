@@ -10,10 +10,10 @@
 
     .header-contact {
         flex-direction: column;
+        align-items: flex-start;
     }
-    .header-contact .phone a {
-        margin-right: 0;
-        margin-bottom: 10px;
+    .header-contact .email {
+        margin-bottom: 15px;
     }
     .header_logo span {
         padding-left: 13px;
