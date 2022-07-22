@@ -4,6 +4,9 @@
         --font_size: 16px;
         --font_size_title: 32px;
     }
+    .header-top {
+        flex-wrap: wrap;
+    }
     .cont {
         padding: 0 15px;
     }
@@ -66,9 +69,6 @@
     }
     .advantages_slider .slick-dots .slick-active {
         background: #56994C;
-    }
-    .header_logo img {
-        width: 40%;
     }
     .callback_btn {
         height: 45px;
