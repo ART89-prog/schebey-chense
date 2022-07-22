@@ -131,7 +131,6 @@ input[type=number]
 ::selection
 {
     color: #fff;
-
     background: #9ebf41;
 }
 
@@ -178,12 +177,12 @@ html.custom_scroll ::-webkit-scrollbar
 
 html.custom_scroll ::-webkit-scrollbar-thumb
 {
-    background-color: #5C9BFF;
+    background-color: #2B83FF;
 }
 
 html.custom_scroll
 {
-    scrollbar-color: #5C9BFF #ccc;
+    scrollbar-color: #2B83FF #ccc;
     scrollbar-width: thin;
 }
 
@@ -427,14 +426,14 @@ header {
 }
 .header-info_title {
     font-weight: 600;
-    font-size: 42px;
+    font-size: var(--font_size_title);
     line-height: 138.8%;
     color: #FFFFFF;
     margin-bottom: 19px;
 }
 .header-info_text {
     font-weight: 400;
-    font-size: 17px;
+    font-size: var(--font_size);
     line-height: 170.8%;
     color: #FFFFFF;
     margin-bottom: 47px;
@@ -511,10 +510,10 @@ header {
 }
 .services_item-title {
     font-weight: 500;
-    font-size: 17px;
+    font-size: var(--font_size);
     line-height: 137.9%;
     text-align: center;
-    color: #01062C;
+    color: var(--text_color);
     margin-top: 35px;
 }
 
@@ -567,7 +566,7 @@ header {
     font-weight: 400;
     font-size: 16px;
     line-height: 162.8%;
-    color: #01062C;
+    color: var(--text_color);
 }
 .steps_item-text span {
     font-weight: 700;
@@ -637,7 +636,7 @@ header {
     margin-bottom: 57px;
 }
 .item-box5 {
-    margin-bottom: 109px;
+    margin-bottom: 63px;
 }
 
 
@@ -727,12 +726,13 @@ header {
     font-size: 20px;
     line-height: 24px;
     text-align: center;    
-    color: #01062C;
+    color: var(--text_color);
     margin-bottom: 27px;
 }
 .request form {
     max-width: 483px;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 .request form .field {
     width: 100%;
@@ -783,13 +783,16 @@ header {
     width: 309px;
     height: 76px;
     display: flex;
+    align-items: center;
     padding: 0 20px 0 31px;
     justify-content: space-between;
     font-weight: 700;
     font-size: 18px;
-    line-height: 23px;
-    color: #FFFFFF;
-    margin-top: 30px;
+    line-height: 76px;
+    background: #2B83FF;
+    border-radius: 900px;
+    color: #fff;
+    margin: 30px auto 0;
 }
 .request form .line:last-child {
     margin-bottom: 0;
@@ -815,8 +818,11 @@ header {
 
 
 footer {
-    background: #414141;
+    background: var(--text_color);
     padding: 34px 0;
+}
+footer .header-top {
+    margin-bottom: 0;
 }
 .footer-top {
     display: flex;
@@ -867,38 +873,9 @@ footer {
 
 
 
-
-/*-----------
-    PopUp
------------*/
-.modal {
-    display: none;
-    visibility: visible !important;
-    width: 100%;
-    max-width: 652px;
-    padding: 68px 62px 62px;
-    background: #FFFFFF;
-    box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+@media print, (max-width: 1635px) {
+    .request_text {
+        font-size: 150px;
+        right: 0px;
+    }
 }
-.modal img {
-    margin: 0 auto;
-    display: block;
-}
-.modal_title {
-    font-family: var(--font_family);
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 147.8%;
-    text-align: center;
-    color: var(--text_color);
-    margin-top: 29px;
-}
-.modal_text {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 147.8%;
-    text-align: center;
-    color: var(--text_color);
-    margin-top: 3px;
-}
-

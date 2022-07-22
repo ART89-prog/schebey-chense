@@ -7,6 +7,9 @@
     .header-top {
         flex-wrap: wrap;
     }
+    .header_language {
+        margin: 20px auto 0;
+    }
     .cont {
         padding: 0 15px;
     }
@@ -68,14 +71,14 @@
         margin-right: 8px;
     }
     .advantages_slider .slick-dots .slick-active {
-        background: #56994C;
+        background: #2B83FF;
     }
     .callback_btn {
         height: 45px;
         line-height: 45px;
     }
     .header-info_title {
-        font-size: 29px;
+        font-size: 26px;
     }
     .header-top {
         margin-bottom: 55px;
@@ -128,21 +131,34 @@
     .footer-contact .email a {
         line-height: 40px;
     }
-    .modal {
-        padding: 35px;
-        background: #FFFFFF;
-        box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+
+    footer .header-contact a span {
+        display: none;
     }
-    .modal_title {
-        font-size: 22px;
-        line-height: 127.8%;
-        margin-top: 20px;
+    footer .header-contact .phone img, 
+    footer .header-contact .email img {
+        margin-right: 0px;
     }
-    .modal_text {
-        font-size: 18px;
-        line-height: 127.8%;
-        margin-top: 10px;
+    footer .header-contact .email {
+        margin-bottom: 0px;
     }
+    footer .header-contact {
+        flex-direction: row;
+    }
+
+    .slider_item-img-logo {
+        position: absolute;
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 85%;
+    }
+    .services_item-title {
+        font-size: 16px;
+    }
+   
+
+
 
 
  

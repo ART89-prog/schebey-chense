@@ -1,7 +1,7 @@
 @media print, (max-width: 1187px) {
   
     :root {
-        --font_size_title: 45px;
+        --font_size_title: 40px;
     }
     .block {
         padding: 70px 0;
@@ -30,6 +30,16 @@
     }
     .advantages_item-box {
         margin-bottom: 40px;
+    }
+
+    .request_text {
+        display: none;
+    }
+    .request {
+        padding-bottom: 0;
+    }
+    .request_image {
+        margin-right: -135px;
     }
 
   
